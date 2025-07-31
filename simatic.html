@@ -1,0 +1,121 @@
+<!Doctype html>
+<html len=""en>
+    <head>
+        <tittle>HTML Semantic Elements</tittle>
+        <style>
+            body{
+                font-family:Arial, sans-serif;
+                margin:0;
+                padding:0;
+            }
+            header,footer{
+                background-color:#333;
+                color:white;
+                padding: 10px;
+                text-align:center;
+            }
+            nav {
+                background-color:#444;
+                padding:10px;
+                text-align:center;
+
+            }
+             nav a{
+                color:white;
+                margin: 0 15px;
+                text-decoration:none;
+             }
+             main{
+                padding:20px;
+             }
+             section{
+                margin-bottom: 20px;
+             }
+             article{
+                border: 1px solid #ccc;
+                padding:15px;
+                margin-bottom: 20px;
+             }
+             aside{
+                background-color:#f7c4b9;
+                padding:10px;
+                margin-top: 20px;
+             }
+             figure{
+                texr-align:center;
+
+             }
+             figcaption{
+                font-style:center;
+                margin-top: 5px;
+             }
+             span.hightlight{
+                color:red;
+                font-weight:bold;
+             }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to HTML5 semantic elements</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">services</a>
+                <a href="#contact">Home</a>
+            </nav>
+        </header>
+        <main>
+            <section id="home">
+                <h2>Home section</h2>
+                <p>welcome to our website built using modern HTML5 elements!</p>
+            </section>
+            <section id="about">
+                <h2>About us</h2>
+                <article>
+                <h3>Our journey</h3>
+                <p>We started our journey 
+                    <span class="hightlight">2010</span>
+                    with a vision to create stunning web experiences.
+                </p>
+                </article>
+                <article>
+                    <h3>Our team</h3>
+                    <p> Our Team consists of talented designers and developers who love what they do!</p>
+                </article>
+            </section>
+            <section id="services">
+                <h2>Our services</h2>
+                <article>
+                    <h3>Web Developement</h3>
+                    <p>We offer top-notch web development services using the latest technologies.</p>
+                </article>
+            <article> 
+                <h3>SEO Optimization</h3>
+                <p>Boost your online presence with our SEO strategies.</p>
+            </article>            </section>
+            <aside>
+                <h3>Did you Know?</h3>
+                <p>HTML5 makes web development easier and more semantic!</p>
+
+            </aside>
+            <figure>
+                <img src="placeholder.png" alt="sample image">
+                <figcaption>Our office during the morning hours</figcaption>
+            </figure>
+            <section id="contact">
+                <h2>Contact</h2>
+                <article>
+                    <h4>for any query please contact</h4>
+                    <p><i style="font-size: 24px;" class="fa">&#9743;</i>
+                    9177729199<br>
+                <i style="font-size: 24px;" class="fa">&#128222;</i>
+            9642422008<br></p>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>&copy;2025 umamaheswari. All rights reserved</p>
+        </footer>
+    </body>
+</html>
